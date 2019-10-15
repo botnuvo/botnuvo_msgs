@@ -1,0 +1,17 @@
+<package format="2">
+  <name>botnuvo_msgs</name>
+  <version>0.1.0</version>
+  <description>
+    ROS messages for Botnuvo robots.
+  </description>
+  <author>Michael Ferguson</author>
+  <maintainer email="fergs@botnuvo.com">Michael Ferguson</maintainer>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>std_msgs</depend>
+
+</package>
